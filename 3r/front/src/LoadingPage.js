@@ -63,7 +63,7 @@ const LoadingPage = () => {
       // Once 100% is reached, navigate to the login page
       clearInterval(timer);
       setTimeout(() => {
-        navigate("/login");
+        navigate("/dashboard");
       }, 500); // Wait for a short duration before navigation
     }
     return () => clearInterval(timer);
