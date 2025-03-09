@@ -1,0 +1,97 @@
+/* .tax-stamp-container {
+    width: 150px;
+    height: 150px;
+    background-image: url("/src/asset/tax-stamp.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 30px auto;
+}
+
+.tax-stamp-container {
+    width: 100px;
+    height: 100px;
+    background-image: url('/src/asset/tax-stamp.jpg');
+    background-size: cover;
+    background-position: center;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 50vh; */
+    padding: 20px;
+    background-color: #22577a;
+    border-radius: 8px;
+  }
+  
+  .form-content {
+    /* background-color: #38a3a5; */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-right: 20px;
+  }
+  
+  .form-title {
+    color: #C7F9CC;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 91%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #57cc99;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .submit-btn,
+  .download-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #57cc99;
+    color: #f8f9fa;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover,
+  .download-btn:hover {
+    background-color: #80ed99;
+  }
+  
+  .amount-text {
+    color: #f8f9fa;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .image-container {
+    width: 300px;
+    height: auto;
+  }
+  
+  .tax-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+
+
+

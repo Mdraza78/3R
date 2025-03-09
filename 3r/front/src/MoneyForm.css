@@ -1,0 +1,140 @@
+/* Reset default styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px;
+  background: #22577A;
+  border-radius: 12px;
+  padding: 30px;
+  color: #f8f9fa;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.form-section {
+  flex: 1;
+}
+
+.h1css {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #C7F9CC;
+  font-weight: 600;
+}
+
+.image-section {
+  flex: 1;
+  text-align: center;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.image-section img:hover {
+  transform: scale(1.05);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #C7F9CC;
+  font-weight: 500;
+}
+
+.input-field {
+  padding: 12px;
+  border: 2px solid #57CC99;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f8f9fa;
+  color: #22577A;
+  width: 100%;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #80ED99;
+  outline: none;
+  box-shadow: 0 0 8px rgba(128, 237, 153, 0.6);
+}
+
+.submit-button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background-color: #38A3A5;
+  border: none;
+  border-radius: 8px;
+  color: #f8f9fa;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #57CC99;
+  transform: translateY(-2px);
+}
+
+.submit-button:active {
+  transform: translateY(0);
+}
+
+.converted-amount {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #80ED99;
+  font-weight: 600;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #C7F9CC;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .form-section,
+  .image-section {
+    flex: unset;
+    width: 100%;
+  }
+
+  .h1css {
+    font-size: 28px;
+  }
+
+  .input-field,
+  .submit-button {
+    width: 100%;
+  }
+}

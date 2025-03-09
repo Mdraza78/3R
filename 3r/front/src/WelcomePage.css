@@ -1,0 +1,92 @@
+/* Welcome Page CSS - Refined with smaller font and button sizes */
+
+.welcome-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #22577A, #38A3A5);
+  color: #f8f9fa;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif; /* Modern font for the page */
+}
+
+/* Logo with subtle floating effect */
+.logo {
+  width: 150px; /* Reduced logo size */
+  height: 150px; /* Reduced logo size */
+  object-fit: cover;
+  border: 4px solid #C7F9CC;
+  border-radius: 50%;
+  animation: logo-floating 4s ease-in-out infinite;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Title text with smooth fade-in effect */
+.text-container {
+  margin-top: 20px; /* Adjusted margin */
+  padding: 0 15px; /* Adjusted padding */
+  animation: fade-in 2s ease-in-out;
+}
+
+.title {
+  font-family: 'Georgia', serif;
+  font-size: 36px; /* Reduced font size */
+  font-weight: bold;
+  color: #80ED99;
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4); /* Reduced shadow effect */
+  margin-bottom: 20px; /* Reduced bottom margin */
+  letter-spacing: 1px; /* Reduced letter spacing */
+  text-transform: uppercase;
+}
+
+/* Proceed button with 3D effect and smooth hover transition */
+.proceed-button {
+  padding: 12px 30px; /* Reduced padding */
+  font-size: 18px; /* Reduced font size */
+  font-weight: 600;
+  background: linear-gradient(135deg, #57CC99, #80ED99);
+  color: #22577A;
+  border: none;
+  border-radius: 30px; /* Reduced border radius */
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.3s, background 0.4s ease-in-out, filter 0.3s ease-in-out;
+  outline: none;
+}
+
+.proceed-button:hover {
+  transform: translateY(-4px); /* Slightly smaller hover effect */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, #38A3A5, #57CC99);
+  filter: brightness(1.1); /* Button gets brighter when hovered */
+}
+
+/* Keyframes for animations */
+@keyframes logo-floating {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(-10px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,142 @@
+/* General container styling */
+.feedback-container {
+    text-align: left; /* Align text to the left for better readability */
+    margin: 50px auto;
+    padding: 40px;
+    font-family: 'Roboto', Arial, sans-serif;
+    max-width: 600px;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 1px solid #f0f0f0;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Hover effect on container */
+  .feedback-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Form title */
+  .feedback-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Form styling */
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align inputs to the left */
+    gap: 20px;
+    width: 100%;
+  }
+  
+  /* Input fields and select dropdown */
+  .feedback-input,
+  .feedback-select,
+  .feedback-textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 14px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+  }
+  
+  .feedback-input:focus,
+  .feedback-select:focus,
+  .feedback-textarea:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+  }
+  
+  /* Textarea styling */
+  .feedback-textarea {
+    height: 150px;
+    resize: vertical;
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  /* Submit button */
+  .feedback-submit {
+    width: 100%;
+    max-width: 500px;
+    padding: 14px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    letter-spacing: 1px;
+  }
+  
+  .feedback-submit:hover {
+    background-color: #45a049;
+  }
+  
+  .feedback-submit:active {
+    background-color: #388e3c;
+  }
+  
+  /* Hover effects for inputs */
+  .feedback-input:hover,
+  .feedback-select:hover,
+  .feedback-textarea:hover {
+    border-color: #4CAF50;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .feedback-container {
+      width: 90%;
+      padding: 25px;
+    }
+  
+    .feedback-title {
+      font-size: 24px;
+    }
+  
+    .feedback-input,
+    .feedback-select,
+    .feedback-textarea,
+    .feedback-submit {
+      font-size: 15px;
+      padding: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .feedback-container {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .feedback-title {
+      font-size: 20px;
+    }
+  
+    .feedback-input,
+    .feedback-select,
+    .feedback-textarea,
+    .feedback-submit {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
