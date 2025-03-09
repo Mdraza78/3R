@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/3R/static/css/main.5c1b97bd.css",
+    "main.js": "/3R/static/js/main.21c26edb.js",
+    "static/js/213.8325c079.chunk.js": "/3R/static/js/213.8325c079.chunk.js",
+    "static/js/455.c6c9e6d3.chunk.js": "/3R/static/js/455.c6c9e6d3.chunk.js",
+    "static/media/TaxRedemption.webp": "/3R/static/media/TaxRedemption.562b8543a31d24d761f1.webp",
+    "static/media/logo2.jpg": "/3R/static/media/logo2.ff5ebf6bd69a421f3f73.jpg",
+    "static/media/logo.jpg": "/3R/static/media/logo.faf9349f0ce7e891e9dd.jpg",
+    "index.html": "/3R/index.html",
+    "main.5c1b97bd.css.map": "/3R/static/css/main.5c1b97bd.css.map",
+    "main.21c26edb.js.map": "/3R/static/js/main.21c26edb.js.map",
+    "213.8325c079.chunk.js.map": "/3R/static/js/213.8325c079.chunk.js.map",
+    "455.c6c9e6d3.chunk.js.map": "/3R/static/js/455.c6c9e6d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c1b97bd.css",
+    "static/js/main.21c26edb.js"
+  ]
+}
